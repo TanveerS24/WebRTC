@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Production & Build outputs
+dist/
+build/
+out/
+.next/
+.turbo/
+
+# Environment and Secret Files
+.env
+.env*.local
+.env.development
+.env.test
+.env.production
+!.env.example
+!.env*.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# Caches & Build artifacts
+.cache/
+.eslintcache
+*.tsbuildinfo
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+[Tt]humbs.db
+[Dd]esktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Docker & Database Volumes
+mongo-data/
+*.pem
+*.key
+*.cert
+*.crt
+
+# Agent / Tool cache
+.agents/
+.gemini/
